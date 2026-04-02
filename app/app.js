@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('🚀 DevOps Capstone Running Successfully!');
+    res.send('Hi we done withe the project');
 });
 
 app.get('/health', (req, res) => {
