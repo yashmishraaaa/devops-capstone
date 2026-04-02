@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('🚀 DevOps Capstone Running Successfully!');
+    res.send('DevOps Capstone Running Successfully!');
 });
 
 app.get('/health', (req, res) => {
@@ -11,4 +11,4 @@ app.get('/health', (req, res) => {
 
 app.listen(3000, () => {
     console.log('Server running on port 3000');
-});
+});  
